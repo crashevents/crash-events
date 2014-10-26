@@ -137,4 +137,28 @@ html, body {
 		}
 	}
 }
+.homepage {
+	margin-bottom: 40px;
+	p {
+		margin-bottom: 40px;
+	}
+}
+.homepage-image {
+	margin-top: 40px;
+}
+.cta-button {
+	text-align: center;
+	margin: 40px;
+	a {
+		border-radius: 5px;
+		background: $blue-dark;
+		color: $white-strong;
+		padding: 10px 40px;
+		margin-top: 40px;
+		font-size: 1.5em;
+		&:hover {
+			text-decoration: none;
+		}
+	}
+}
 
