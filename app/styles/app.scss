@@ -159,12 +159,13 @@ html, body {
 	a {
 		border-radius: 5px;
 		background: $blue-dark;
-		color: $white-strong;
+		color: $white-ultrastrong;
 		padding: 10px 40px;
 		margin-top: 40px;
 		font-size: 1.5em;
 		&:hover {
 			text-decoration: none;
+			background: $green-strong;
 		}
 	}
 }
