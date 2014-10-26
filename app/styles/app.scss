@@ -7,6 +7,9 @@ html, body {
 	background: #FAFAFA;
 	margin: 15px;
 }
+img {
+	max-width: 100%;
+}
 .navbar {
 	border-radius: 5px;
 	background: $secondary-color-strong;
@@ -19,6 +22,9 @@ html, body {
 	li > a {
 		padding-left: 30px;
 		padding-right: 30px;
+		@media screen and (max-width: 750px) {
+			&::after{display:none;}
+		}
 		&::after {
 			position: absolute;
 			top: 100%;
