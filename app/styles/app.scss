@@ -79,11 +79,9 @@ html, body {
 .map {
 	border: 2px solid $blue-medium;
 	border-radius: 5px;
+	height: 700px;
 	padding: 10px;
 	margin-bottom: 20px;
-	img {
-		width: 100%;
-	}
 }
 .range-container {
 	margin-bottom: 10px;

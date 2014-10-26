@@ -16,6 +16,18 @@ module.exports = function(environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+      map: {
+        baseLat: 39.5272,
+        baseLng: -119.8219,
+        defaultZoom: 13
+      },
+      cartoDb: {
+        user: 'ledbelly2142',
+        layerType: 'cartodb',
+        tables: {
+          accidents: 'public.reno_traffice_accidents_xls_005wgs84'
+        }
+      }
     }
   };
 
@@ -25,6 +37,16 @@ module.exports = function(environment) {
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     ENV.APP.LOG_VIEW_LOOKUPS = true;
+    // Set content security policy for local dev
+    ENV.contentSecurityPolicy = {
+      'default-src': "'none'",
+      'script-src': "'self' 'unsafe-eval' *.cartodb.com *.cartocdn.com *.google.com *.gstatic.com *.googleapis.com *.googleusercontent.com",
+      'font-src': "'self' *.google.com *.gstatic.com *.googleapis.com *.googleusercontent.com",
+      'connect-src': "'self'",
+      'img-src': "'self' data: *.fastly.net cartodb.s3.amazonaws.com *.cartodb.com *.cartocdn.com *.google.com *.gstatic.com *.googleapis.com *.googleusercontent.com",
+      'style-src': "'self' 'unsafe-inline' *.cartocdn.com *.google.com *.gstatic.com *.googleapis.com *.googleusercontent.com",
+      'media-src': "'self'"
+    };
   }
 
   if (environment === 'test') {
