@@ -66,6 +66,12 @@ html, body {
 		padding: 10px;
 		margin: 0;
 	}
+	a {
+		color: $white-strong;
+		&:hover {
+			color: inherit;
+		}
+	}
 }
 .logo-map {
 	text-align: center;
