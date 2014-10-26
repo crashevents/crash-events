@@ -79,7 +79,10 @@ html, body {
 .map {
 	border: 2px solid $blue-medium;
 	border-radius: 5px;
-	height: 700px;
+	height: 500px;
+	@media screen and (max-width: 750px) {
+		height: 280px;
+	}
 	padding: 10px;
 	margin-bottom: 20px;
 }
