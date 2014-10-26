@@ -13,6 +13,9 @@ html, body {
 	.navbar-header > a:hover {
 		color: $white-strong;
 	}
+	.icon-bar {
+		background: $white-strong;
+	}
 	li > a {
 		padding-left: 30px;
 		padding-right: 30px;
