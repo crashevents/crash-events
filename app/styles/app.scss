@@ -161,4 +161,17 @@ html, body {
 		}
 	}
 }
+.bios {
+	text-align: center;
+	.bio {
+		margin-bottom: 20px;
+		.name {
+			margin-top: 20px;
+			font-weight: 400;
+		}
+		.github {
+			color: inherit;
+		}
+	}
+}
 
