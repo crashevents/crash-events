@@ -97,6 +97,9 @@ img {
 	}
 	padding: 10px;
 	margin-bottom: 20px;
+	img {
+	  max-width: none;
+	}
 }
 .range-container {
 	margin-bottom: 10px;
