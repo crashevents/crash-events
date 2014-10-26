@@ -2,11 +2,19 @@ import Ember from 'ember';
 
 export default Ember.Component.extend({
   classNames: ['map crash-map'],
+  filterSeasons: ['spring', 'summer', 'autumn', 'winter'],
+  filterYears: ['2009', '2010', '2011', '2012', '2013', '2014'],
 
   _initializeMap: function() {
     var map = this.createGoogleMap();
-    this.addCartoDbLayer(map, 0);
+    this.set('map', map);
+    this.addCartoDbLayer(0);
   }.on('didInsertElement'),
+
+  _filtersChanges: function() {
+    this.addCartoDbLayer(0);
+    console.log(">> update filters");
+  }.observes('filterSeasons', 'filterYears'),
 
   createGoogleMap: function() {
     var map;
@@ -22,16 +30,23 @@ export default Ember.Component.extend({
     return map;
   },
 
-  addCartoDbLayer: function(map, position) {
+  addCartoDbLayer: function(position) {
+    var map = this.get('map');
     var table = CrashEvents.cartoDb.tables.accidents;
-    var layerSQL = "SELECT * FROM " + table + " ";
+    var seasons = this.get('filterSeasons');
+    var seasonsCondition = "season in ('" + seasons.join("','") + "')";
+    var years = this.get('filterYears');
+    var yearsCondition = "year in ('" + years.join("','") + "')";
+    var layerSQL = "SELECT * FROM " + table + " WHERE " + seasonsCondition + " AND " + yearsCondition + "";
+
+    console.log(layerSQL);
 
     window.cartodb.createLayer(map, {
       user_name: CrashEvents.cartoDb.user,
       type: CrashEvents.cartoDb.layerType,
       sublayers: [{
         sql: layerSQL,
-        cartocss: '#' + table + '{marker-fill: #B13B11; marker-fill-opacity: 0.25; marker-line-color: transparent; marker-allow-overlap: true; marker-width: 7;}'
+        cartocss: '#' + table + ' {marker-fill: #B13B11;marker-fill-opacity: 0.25;marker-line-color: transparent;marker-allow-overlap: true;marker-width: 10;}'
       }]
     })
     .addTo(map, position)
