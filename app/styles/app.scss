@@ -1,3 +1,4 @@
+@import "typography.scss";
 @import "utilities.scss";
 
 @import "bootstrap";
@@ -22,6 +23,33 @@ html, body {
 	color: #37A87F;
 	img {
 		opacity: 0.82;
+	}
+}
+.range {
+	display: inline;
+}
+.seasons {
+	border-radius: 5px;
+	padding-left: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	width: 100px;
+	.season {
+		background: $blue-light;
+		list-style: none;
+		text-align: center;
+		padding-top: 1em;
+		padding-bottom: 1em;
+		border-bottom: thin solid $blue-light;
+		&:hover {
+		background: $blue-ultralight;
+		}
+		&:first-child {
+		border-radius: 5px 5px 0 0;
+		}
+		&:last-child {
+		border-radius: 0 0 5px 5px;
+		}
 	}
 }
 
