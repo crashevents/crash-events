@@ -1,20 +1,56 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,700,400);
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  color: $black-dark;
+}
+body {
+  h1, h2, h3, h4 {
+    font-family: 'Roboto', sans-serif;
+    color: $black-medium;
+  }
+}
+.logo-map h1 {
+  font-size: 4em;
+  font-weight: 300;
+  color: $green-strong;
+}
+.navbar {
+  a {
+    font-family: 'Roboto', sans-serif;
+    color: $white-strong;
+    font-weight: 300;
+    font-size: 1.5em;
+  }
+}
+.date-range-controls {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.25em;
+}
+.label-text {
+  color: $black-light;
+  font-size: 1.5em;
+}
+/*  Icons 
+================*/
 @font-face {
-    font-family: 'icomoon';
-    src:url('/fonts/icomoon.eot');
-    src:url('/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
-        url('/fonts/icomoon.woff') format('woff'),
-        url('/fonts/icomoon.ttf') format('truetype'),
-        url('/fonts/icomoon.svg#icomoon') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'icomoon';
+  src:url('/fonts/icomoon.eot');
+  src:url('/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+      url('/fonts/icomoon.woff') format('woff'),
+      url('/fonts/icomoon.ttf') format('truetype'),
+      url('/fonts/icomoon.svg#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 .icon:before {
 	font-size: 2em;
 	color: rgba(0, 0, 0, 0.54);
 }
 .icon.calendar:before {
-    content: '\e602';
-    font-family: 'icomoon';
-    speak: none;
-    margin-left: 20px;
-}  
+  content: '\e602';
+  font-family: 'icomoon';
+  speak: none;
+  margin-left: 20px;
+}
