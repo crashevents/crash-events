@@ -39,7 +39,19 @@ Make use of the many generators for code, try `ember help generate` for more det
 
 ### Deploying
 
-Specify what it takes to deploy your app.
+_Note: Don't forget to run `ember build`!_
+
+There are currently two deployment locations:
+
+#### 1. GitHub Pages
+
+* You need repo access for this deployment option.
+* `grunt deploy`
+
+#### 2. Heroku
+
+* You need access to the heroku app for this deployment option.
+* `git push heroku BRANCH`
 
 ## Further Reading / Useful Links
 
