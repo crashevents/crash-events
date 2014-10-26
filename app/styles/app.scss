@@ -1,21 +1,17 @@
-@import "typography.scss";
 @import "utilities.scss";
-
+@import "typography.scss";
 @import "bootstrap";
 @import "bootstrap/theme";
 
 html, body {
 	background: #FAFAFA;
 }
-.label-text {
-	color: $black-light;
-}
 .navbar {
 	border-radius: 0;
 	background: $secondary-color-strong;
-	.nav a,
-	.navbar-brand {
-	color: $white-strong;
+	li > a {
+		padding-left: 30px;
+		padding-right: 30px;
 	}
 }
 .footer {
@@ -32,6 +28,8 @@ html, body {
 .logo-map {
 	text-align: center;
 	color: #37A87F;
+	margin-top: 20px;
+	margin-bottom: 20px;
 	img {
 		opacity: 0.82;
 	}
@@ -40,10 +38,13 @@ html, body {
 	border: 2px solid $blue-medium;
 	border-radius: 5px;
 	padding: 10px;
-	margin: 10px;
+	margin-bottom: 20px;
 	img {
 		width: 100%;
 	}
+}
+.range-container {
+	margin-bottom: 10px;
 }
 .range {
 	display: inline;
@@ -81,7 +82,7 @@ html, body {
 		background: $blue-light;
 		border-right: thin solid $blue-light;
 		float: left;
-		padding: 15px;
+		padding: 15px 30px;
 		&:hover,
 		&.active {
 			background: $blue-ultralight;
