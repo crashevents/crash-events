@@ -37,6 +37,10 @@ html, body {
 	}
 }
 .map {
+	border: 2px solid $blue-medium;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
 	img {
 		width: 100%;
 	}
@@ -57,14 +61,36 @@ html, body {
 		padding-top: 1em;
 		padding-bottom: 1em;
 		border-bottom: thin solid $blue-light;
-		&:hover {
-		background: $blue-ultralight;
+		&:hover,
+		&.active {
+			background: $blue-ultralight;
 		}
 		&:first-child {
 		border-radius: 5px 5px 0 0;
 		}
 		&:last-child {
 		border-radius: 0 0 5px 5px;
+		}
+	}
+}
+.date-range-controls {
+	list-style: none;
+	display: inline-block;
+	padding-left: 15px;
+	li {
+		background: $blue-light;
+		border-right: thin solid $blue-light;
+		float: left;
+		padding: 15px;
+		&:hover,
+		&.active {
+			background: $blue-ultralight;
+		}
+		&:first-child {
+		border-radius: 5px 0 0 5px;
+		}
+		&:last-child {
+		border-radius: 0 5px 5px 0;
 		}
 	}
 }
