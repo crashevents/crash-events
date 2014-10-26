@@ -16,8 +16,11 @@ body {
   font-weight: 300;
   color: $green-strong;
 }
-.logo-map.homepage h1 {
-  font-size: 6em;
+.logo-map.homepage { 
+  h1 {
+    font-size: 6em;
+  }
+  p {font-size: 2em;}
 }
 .navbar {
   a {
