@@ -40,10 +40,10 @@ module.exports = function(environment) {
     // Set content security policy for local dev
     ENV.contentSecurityPolicy = {
       'default-src': "'none'",
-      'script-src': "'self' 'unsafe-eval' *.cartodb.com *.cartocdn.com *.google.com *.gstatic.com *.googleapis.com *.googleusercontent.com",
+      'script-src': "'self' 'unsafe-eval' 'unsafe-inline' *.cartodb.com *.cartocdn.com *.google.com *.google-analytics.com *.gstatic.com *.googleapis.com *.googleusercontent.com",
       'font-src': "'self' *.google.com *.gstatic.com *.googleapis.com *.googleusercontent.com *.bootstrapcdn.com",
       'connect-src': "'self'",
-      'img-src': "'self' data: *.fastly.net cartodb.s3.amazonaws.com *.cartodb.com *.cartocdn.com *.google.com *.gstatic.com *.googleapis.com *.googleusercontent.com",
+      'img-src': "'self' data: *.fastly.net cartodb.s3.amazonaws.com *.cartodb.com *.cartocdn.com *.google.com *.google-analytics.com *.gstatic.com *.googleapis.com *.googleusercontent.com",
       'style-src': "'self' 'unsafe-inline' *.cartocdn.com *.google.com *.gstatic.com *.googleapis.com *.googleusercontent.com *.bootstrapcdn.com",
       'media-src': "'self'"
     };

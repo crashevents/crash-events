@@ -46,7 +46,7 @@ export default Ember.Component.extend({
       type: CrashEvents.cartoDb.layerType,
       sublayers: [{
         sql: layerSQL,
-        cartocss: '#' + table + ' {marker-fill: #B13B11;marker-fill-opacity: 0.25;marker-line-color: transparent;marker-allow-overlap: true;marker-width: 10;}'
+        cartocss: '#' + table + ' {marker-fill: #B13B11;marker-fill-opacity: 0.15;marker-line-color: transparent;marker-allow-overlap: true;marker-width: 15;}'
       }]
     })
     .addTo(map, position)
