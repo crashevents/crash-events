@@ -47,7 +47,6 @@ export default Ember.Controller.extend({
   },
 
   toggle: function(attr) {
-    console.log('toggle: ' + attr);
     if(this.get(attr) === true) {
       this.set(attr, false);
     } else {

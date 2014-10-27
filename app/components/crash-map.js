@@ -13,7 +13,6 @@ export default Ember.Component.extend({
 
   _filtersChanges: function() {
     this.addCartoDbLayer(0);
-    console.log(">> update filters");
   }.observes('filterSeasons', 'filterYears'),
 
   createGoogleMap: function() {
@@ -39,8 +38,6 @@ export default Ember.Component.extend({
     var yearsCondition = "year in ('" + years.join("','") + "')";
     var layerSQL = "SELECT * FROM " + table + " WHERE " + seasonsCondition + " AND " + yearsCondition + "";
 
-    console.log(layerSQL);
-
     window.cartodb.createLayer(map, {
       user_name: CrashEvents.cartoDb.user,
       type: CrashEvents.cartoDb.layerType,
@@ -51,7 +48,7 @@ export default Ember.Component.extend({
     })
     .addTo(map, position)
     .done(function(layer) {
-      console.log('>>> added cartodb layer', layer);
+      // console.log('>>> added cartodb layer', layer);
     })
     .error(function(error) {
       console.log('>>> problem creating cartodb layer:', error);
