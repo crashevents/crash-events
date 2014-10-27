@@ -33,17 +33,31 @@ export default Ember.Component.extend({
     var map = this.get('map');
     var table = CrashEvents.cartoDb.tables.accidents;
     var seasons = this.get('filterSeasons');
-    var seasonsCondition = "season in ('" + seasons.join("','") + "')";
+    var seasonsCondition = "a.season in ('" + seasons.join("','") + "')";
     var years = this.get('filterYears');
-    var yearsCondition = "year in ('" + years.join("','") + "')";
-    var layerSQL = "SELECT * FROM " + table + " WHERE " + seasonsCondition + " AND " + yearsCondition + "";
+    var yearsCondition = "a.year in ('" + years.join("','") + "')";
+    var layerSQL = "SELECT * FROM " + table + " a WHERE " + seasonsCondition + " AND " + yearsCondition + "";
+
+    // example query to limit points, with totals within DWithin (meters?)
+    //    var layerSQL = "SELECT a.the_geom, a.year, a.season, count(a.*) as accidents, a.the_geom_webmercator FROM " + "public." + table + " AS a, " + "public." + table + " AS b WHERE ST_DWithin(a.the_geom, b.the_geom,100) AND (" + seasonsCondition + ") AND (" + yearsCondition + ") GROUP BY a.the_geom_webmercator, a.the_geom, a.year, a.season " + "";
+
+    //console.log(layerSQL);
+
+    var alias = "foo";
+    var layerCSS = "#" + alias + "{marker-fill:#fff;marker-fill-opacity:0.40;marker-line-color:transparent;marker-allow-overlap:true;marker-width:12;marker-comp-op:soft-light;}";
+    layerCSS = layerCSS + "#" + alias + "[season='spring']{marker-fill:#70B69C;}";
+    layerCSS = layerCSS + "#" + alias + "[season='summer']{marker-fill:#EAEF54;}";
+    layerCSS = layerCSS + "#" + alias + "[season='autumn']{marker-fill:#997A65;}";
+    layerCSS = layerCSS + "#" + alias + "[season='winter']{marker-fill:#56A1EC;}";
+
+    //console.log(layerCSS);
 
     window.cartodb.createLayer(map, {
       user_name: CrashEvents.cartoDb.user,
       type: CrashEvents.cartoDb.layerType,
       sublayers: [{
         sql: layerSQL,
-        cartocss: '#' + table + ' {marker-fill: #B13B11;marker-fill-opacity: 0.15;marker-line-color: transparent;marker-allow-overlap: true;marker-width: 15;}'
+        cartocss: layerCSS
       }]
     })
     .addTo(map, position)

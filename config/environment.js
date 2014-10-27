@@ -25,7 +25,7 @@ module.exports = function(environment) {
         user: 'ledbelly2142',
         layerType: 'cartodb',
         tables: {
-          accidents: 'public.reno_traffice_accidents_xls_005wgs84'
+          accidents: 'reno_traffice_accidents_xls_005wgs84'
         }
       }
     }
