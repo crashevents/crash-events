@@ -1,43 +1,43 @@
 @import url(http://fonts.googleapis.com/css?family=Roboto:300,700,400);
-/* line 2, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/typography.scss */
+/* line 2, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/typography.scss */
 p {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.72); }
 
-/* line 9, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/typography.scss */
+/* line 9, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/typography.scss */
 body h1, body h2, body h3, body h4 {
   font-family: 'Roboto', sans-serif;
   color: rgba(0, 0, 0, 0.64); }
 
-/* line 14, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/typography.scss */
+/* line 14, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/typography.scss */
 .logo-map h1 {
   font-size: 4em;
   font-weight: 300;
   color: rgba(55, 168, 127, 0.82); }
 
-/* line 20, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/typography.scss */
+/* line 20, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/typography.scss */
 .logo-map.homepage h1 {
   font-size: 6em; }
-/* line 23, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/typography.scss */
+/* line 23, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/typography.scss */
 .logo-map.homepage p {
   font-size: 2em; }
 
-/* line 26, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/typography.scss */
+/* line 26, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/typography.scss */
 .navbar a {
   font-family: 'Roboto', sans-serif;
   color: rgba(255, 255, 255, 0.72);
   font-weight: 300;
   font-size: 1.5em; }
 
-/* line 33, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/typography.scss */
+/* line 33, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/typography.scss */
 .date-range-controls {
   font-family: 'Roboto', sans-serif;
   font-size: 1.25em;
   font-weight: 300; }
 
-/* line 38, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/typography.scss */
+/* line 38, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/typography.scss */
 .label-text {
   color: rgba(0, 0, 0, 0.54);
   font-size: 1.5em; }
@@ -51,12 +51,12 @@ body h1, body h2, body h3, body h4 {
   font-weight: normal;
   font-style: normal; }
 
-/* line 54, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/typography.scss */
+/* line 54, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/typography.scss */
 .icon:before {
   font-size: 2em;
   color: rgba(0, 0, 0, 0.54); }
 
-/* line 58, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/typography.scss */
+/* line 58, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/typography.scss */
 .icon.calendar:before {
   content: '\e602';
   font-family: 'icomoon';
@@ -6580,35 +6580,35 @@ button.close {
   -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1);
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.05), 0 1px 0 rgba(255, 255, 255, 0.1); }
 
-/* line 6, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 6, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 html, body {
   background: #FAFAFA;
   margin: 15px; }
 
-/* line 10, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 10, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 img {
   max-width: 100%; }
 
-/* line 13, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 13, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 .navbar {
   border-radius: 5px;
   background: rgba(96, 123, 139, 0.86); }
-  /* line 16, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+  /* line 16, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
   .navbar .navbar-header > a:hover {
     color: rgba(255, 255, 255, 0.72); }
-  /* line 19, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+  /* line 19, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
   .navbar .icon-bar {
     background: rgba(255, 255, 255, 0.72); }
-  /* line 22, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+  /* line 22, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
   .navbar li > a {
     padding-left: 30px;
     padding-right: 30px; }
     @media screen and (max-width: 750px) {
-      /* line 26, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+      /* line 26, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
       .navbar li > a::after {
         display: none; }
  }
-    /* line 28, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+    /* line 28, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
     .navbar li > a::after {
       position: absolute;
       top: 100%;
@@ -6624,18 +6624,18 @@ img {
       -webkit-transform: translateY(-10px);
       -moz-transform: translateY(-10px);
       transform: translateY(-10px); }
-    /* line 44, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+    /* line 44, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
     .navbar li > a.active::after {
       height: 5px;
       opacity: 1;
       -webkit-transform: translateY(0px);
       -moz-transform: translateY(0px);
       transform: translateY(0px); }
-    /* line 52, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+    /* line 52, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
     .navbar li > a:hover, .navbar li > a:focus {
       background: inherit;
       color: rgba(255, 255, 255, 0.72); }
-      /* line 55, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+      /* line 55, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
       .navbar li > a:hover::after, .navbar li > a:focus::after {
         height: 5px;
         opacity: 1;
@@ -6643,35 +6643,35 @@ img {
         -moz-transform: translateY(0px);
         transform: translateY(0px); }
 
-/* line 65, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 65, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 .footer {
   margin-top: 20px;
   border-radius: 5px;
   background: rgba(96, 123, 139, 0.86);
   text-align: center; }
-  /* line 70, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+  /* line 70, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
   .footer p {
     color: rgba(255, 255, 255, 0.72);
     padding: 10px;
     margin: 0; }
-  /* line 75, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+  /* line 75, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
   .footer a {
     color: rgba(255, 255, 255, 0.72); }
-    /* line 77, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+    /* line 77, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
     .footer a:hover {
       color: inherit; }
 
-/* line 82, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 82, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 .logo-map {
   text-align: center;
   color: #37A87F;
   margin-top: 20px;
   margin-bottom: 20px; }
-  /* line 87, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+  /* line 87, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
   .logo-map img {
     opacity: 0.82; }
 
-/* line 91, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 91, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 .map {
   border: 2px solid rgba(96, 123, 139, 0.36);
   border-radius: 5px;
@@ -6681,23 +6681,26 @@ img {
   @media screen and (max-width: 750px) {
     .map {
       height: 280px; } }
+  /* line 100, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
+  .map img {
+    max-width: none; }
 
-/* line 101, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 104, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 .range-container {
   margin-bottom: 10px; }
 
-/* line 104, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 107, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 .range {
   display: inline; }
 
-/* line 107, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 110, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 .seasons {
   border-radius: 5px;
   padding-left: 0;
   padding-top: 10px;
   padding-bottom: 10px;
   width: 100px; }
-  /* line 113, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+  /* line 116, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
   .seasons .season {
     background: rgba(96, 123, 139, 0.12);
     list-style: none;
@@ -6705,53 +6708,53 @@ img {
     padding-top: 1em;
     padding-bottom: 1em;
     border-bottom: thin solid rgba(96, 123, 139, 0.12); }
-    /* line 121, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+    /* line 124, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
     .seasons .season:hover, .seasons .season.active {
       background: rgba(96, 123, 139, 0.2); }
-    /* line 124, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+    /* line 127, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
     .seasons .season:first-child {
       border-radius: 5px 5px 0 0; }
-    /* line 127, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+    /* line 130, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
     .seasons .season:last-child {
       border-radius: 0 0 5px 5px; }
 
-/* line 132, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 135, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 .date-range-controls {
   list-style: none;
   display: inline-block;
   padding-left: 15px; }
-  /* line 136, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+  /* line 139, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
   .date-range-controls li {
     background: rgba(96, 123, 139, 0.12);
     border-right: thin solid rgba(96, 123, 139, 0.12);
     float: left;
     padding: 15px 30px; }
-    /* line 142, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+    /* line 145, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
     .date-range-controls li:hover, .date-range-controls li.active {
       background: rgba(96, 123, 139, 0.2); }
-    /* line 145, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+    /* line 148, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
     .date-range-controls li:first-child {
       border-radius: 5px 0 0 5px; }
-    /* line 148, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+    /* line 151, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
     .date-range-controls li:last-child {
       border-radius: 0 5px 5px 0; }
 
-/* line 153, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 156, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 .homepage {
   margin-bottom: 40px; }
-  /* line 155, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+  /* line 158, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
   .homepage p {
     margin-bottom: 40px; }
 
-/* line 159, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 162, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 .homepage-image {
   margin-top: 40px; }
 
-/* line 162, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 165, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 .cta-button {
   text-align: center;
   margin: 40px 0; }
-  /* line 165, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+  /* line 168, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
   .cta-button a {
     border-radius: 5px;
     background: rgba(96, 123, 139, 0.54);
@@ -6759,26 +6762,26 @@ img {
     padding: 10px 40px;
     margin-top: 40px;
     font-size: 1.5em; }
-    /* line 172, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+    /* line 175, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
     .cta-button a:hover {
       text-decoration: none;
       background: rgba(55, 168, 127, 0.82); }
 
-/* line 178, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 181, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 .bios {
   text-align: center; }
-  /* line 180, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+  /* line 183, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
   .bios .bio {
     margin-bottom: 20px; }
-    /* line 182, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+    /* line 185, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
     .bios .bio .name {
       margin-top: 20px;
       font-weight: 400; }
-    /* line 186, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+    /* line 189, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
     .bios .bio .github {
       color: inherit; }
 
-/* line 192, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-FyubXbxd.tmp/app/styles/app.scss */
+/* line 195, /home/hack4reno2014/crash-events/tmp/tree_merger-tmp_dest_dir-ZT33BnKE.tmp/app/styles/app.scss */
 [data-ember-action] {
   cursor: pointer; }
 
