@@ -14,12 +14,10 @@ export default Ember.Controller.extend({
     // update array here
     var s = [];
     var self = this;
-    this.allSeasons.forEach(function(item, index) {
-      if (self.get(item) == true){ s.push(item) };
+    this.allSeasons.forEach(function(item) {
+      if (self.get(item) === true){ s.push(item); }
     });
-    if (this.get('seasons').length == s.length) {
-      // nothing
-    } else {
+    if (this.get('seasons').length !== s.length) {
       this.set('seasons', s);
     }
   },
@@ -40,23 +38,21 @@ export default Ember.Controller.extend({
     // update array here
     var y = [];
     var self = this;
-    this.allYears.forEach(function(item, index) {
-      if (self.get("y" + item) == true){ y.push(item) };
+    this.allYears.forEach(function(item) {
+      if (self.get("y" + item) === true){ y.push(item); }
     });
-    if (this.get('years').length == y.length) {
-      // nothing
-    } else {
+    if (this.get('years').length !== y.length) {
       this.set('years', y);
     }
   },
 
   toggle: function(attr) {
     console.log('toggle: ' + attr);
-    if(this.get(attr) == true) {
+    if(this.get(attr) === true) {
       this.set(attr, false);
     } else {
       this.set(attr, true);
-    };
+    }
     this.updateSeasons();
     this.updateYears();
   },
@@ -91,6 +87,6 @@ export default Ember.Controller.extend({
     },
     y2014: function() {
       this.toggle('y2014');
-    },
+    }
   }
 });
