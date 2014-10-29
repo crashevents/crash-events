@@ -170,6 +170,9 @@ img {
 		background: $blue-dark;
 		color: $white-ultrastrong;
 		padding: 10px 40px;
+		@media screen and (max-width: 360px) {
+			padding: 10px 20px;
+		}
 		margin-top: 40px;
 		font-size: 1.5em;
 		&:hover {
