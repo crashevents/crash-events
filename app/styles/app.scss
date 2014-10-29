@@ -120,7 +120,6 @@ img {
 		padding-top: 1em;
 		padding-bottom: 1em;
 		border-bottom: thin solid $blue-light;
-		&:hover,
 		&.active {
 			background: $blue-ultralight;
 		}
@@ -141,7 +140,6 @@ img {
 		border-right: thin solid $blue-light;
 		float: left;
 		padding: 15px 30px;
-		&:hover,
 		&.active {
 			background: $blue-ultralight;
 		}
